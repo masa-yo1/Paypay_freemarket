@@ -14,4 +14,4 @@
 
 ## テスト
 
-`python3 mercari/crawler.py` および `python3 mercari/downloader.py` の両方が実行できれば環境構築成功。
+`python3 pay_crawler.py` および `python3 pay_downloader.py` の両方が実行できれば環境構築成功。
