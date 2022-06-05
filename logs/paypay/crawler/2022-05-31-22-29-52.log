@@ -1,0 +1,22 @@
+2022-05-31 22:29:52,187[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-05-31 22:29:55,481[INFO/MainProcess]pay_crawler.py(44): Start crawling: https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-05-31 22:30:00,364[ERROR/MainProcess]pay_crawler.py(101): An error occurred while parsing items.
+2022-05-31 22:30:00,366[ERROR/MainProcess]pay_crawler.py(102): Traceback (most recent call last):
+  File "pay_crawler.py", line 92, in parse_items
+    tmb_elems= driver.find_element(By.CSS_SELECTOR, '#itm')
+NameError: name 'driver' is not defined
+
+2022-05-31 22:30:00,367[WARNING/MainProcess]pay_crawler.py(69): No items found: https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-05-31 22:30:00,367[INFO/MainProcess]pay_crawler.py(83): Finish crawling: https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-05-31 22:30:00,376[INFO/MainProcess]pay_crawler.py(44): Start crawling: https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-05-31 22:30:04,060[ERROR/MainProcess]pay_crawler.py(101): An error occurred while parsing items.
+2022-05-31 22:30:04,066[ERROR/MainProcess]pay_crawler.py(102): Traceback (most recent call last):
+  File "pay_crawler.py", line 92, in parse_items
+    tmb_elems= driver.find_element(By.CSS_SELECTOR, '#itm')
+NameError: name 'driver' is not defined
+
+2022-05-31 22:30:04,066[WARNING/MainProcess]pay_crawler.py(69): No items found: https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-05-31 22:30:04,067[INFO/MainProcess]pay_crawler.py(83): Finish crawling: https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-05-31 22:30:05,046[INFO/MainProcess]crawler_base.py(188): Finish crawling paypay.

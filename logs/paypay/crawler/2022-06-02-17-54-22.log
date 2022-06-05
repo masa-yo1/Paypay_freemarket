@@ -1,0 +1,26 @@
+2022-06-02 17:54:22,362[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:54:25,417[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:54:28,912[ERROR/MainProcess]crawler_pay.py(102): An error occurred while parsing items.
+2022-06-02 17:54:28,913[ERROR/MainProcess]crawler_pay.py(103): Traceback (most recent call last):
+  File "crawler_pay.py", line 99, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 112, in parse_item_info
+    driver = webdriver.Chrome()
+NameError: name 'webdriver' is not defined
+
+2022-06-02 17:54:28,913[WARNING/MainProcess]crawler_pay.py(70): No items found: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:54:28,913[INFO/MainProcess]crawler_pay.py(84): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:54:28,915[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:54:31,205[ERROR/MainProcess]crawler_pay.py(102): An error occurred while parsing items.
+2022-06-02 17:54:31,205[ERROR/MainProcess]crawler_pay.py(103): Traceback (most recent call last):
+  File "crawler_pay.py", line 99, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 112, in parse_item_info
+    driver = webdriver.Chrome()
+NameError: name 'webdriver' is not defined
+
+2022-06-02 17:54:31,205[WARNING/MainProcess]crawler_pay.py(70): No items found: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:54:31,205[INFO/MainProcess]crawler_pay.py(84): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:54:32,131[INFO/MainProcess]crawler_base.py(188): Finish crawling paypay.

@@ -1,0 +1,8 @@
+2022-06-03 21:51:36,713[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-03 21:51:40,272[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-03 21:52:08,389[INFO/MainProcess]crawler_pay.py(84): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-03 21:52:08,403[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-03 21:52:36,041[INFO/MainProcess]crawler_pay.py(84): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-03 21:52:38,797[INFO/MainProcess]crawler_base.py(188): Finish crawling paypay.
