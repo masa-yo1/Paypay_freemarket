@@ -1,0 +1,26 @@
+2022-05-31 22:43:00,881[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-05-31 22:43:04,310[INFO/MainProcess]pay_crawler.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-05-31 22:43:27,901[ERROR/MainProcess]pay_crawler.py(58): Timeout occurred while loading the page.
+2022-05-31 22:43:27,911[ERROR/MainProcess]pay_crawler.py(59): Traceback (most recent call last):
+  File "pay_crawler.py", line 53, in crawl_url
+    EC.presence_of_element_located((By.CSS_SELECTOR, "p[slot='title']"))
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 87, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2022-05-31 22:43:27,911[INFO/MainProcess]pay_crawler.py(83): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-05-31 22:43:27,913[INFO/MainProcess]pay_crawler.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-05-31 22:43:50,429[ERROR/MainProcess]pay_crawler.py(58): Timeout occurred while loading the page.
+2022-05-31 22:43:50,430[ERROR/MainProcess]pay_crawler.py(59): Traceback (most recent call last):
+  File "pay_crawler.py", line 53, in crawl_url
+    EC.presence_of_element_located((By.CSS_SELECTOR, "p[slot='title']"))
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 87, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2022-05-31 22:43:50,431[INFO/MainProcess]pay_crawler.py(83): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-05-31 22:43:51,396[INFO/MainProcess]crawler_base.py(188): Finish crawling paypay.

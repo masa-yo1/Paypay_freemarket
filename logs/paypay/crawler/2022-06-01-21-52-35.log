@@ -1,0 +1,86 @@
+2022-06-01 21:52:35,656[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 21:52:38,878[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 21:52:42,387[ERROR/MainProcess]crawler_pay.py(101): An error occurred while parsing items.
+2022-06-01 21:52:42,396[ERROR/MainProcess]crawler_pay.py(102): Traceback (most recent call last):
+  File "crawler_pay.py", line 98, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 110, in parse_item_info
+    tmb_elems= self.driver.find_element(By.CSS_SELECTOR, '#itm')
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 1253, in find_element
+    'value': value})['value']
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#itm"}
+  (Session info: chrome=102.0.5005.61)
+Stacktrace:
+0   chromedriver                        0x000000010b3d52c9 chromedriver + 5120713
+1   chromedriver                        0x000000010b363e33 chromedriver + 4656691
+2   chromedriver                        0x000000010af53158 chromedriver + 393560
+3   chromedriver                        0x000000010af87edd chromedriver + 610013
+4   chromedriver                        0x000000010af88161 chromedriver + 610657
+5   chromedriver                        0x000000010afba244 chromedriver + 815684
+6   chromedriver                        0x000000010afa54ad chromedriver + 730285
+7   chromedriver                        0x000000010afb7f41 chromedriver + 806721
+8   chromedriver                        0x000000010afa5373 chromedriver + 729971
+9   chromedriver                        0x000000010af7b609 chromedriver + 558601
+10  chromedriver                        0x000000010af7c635 chromedriver + 562741
+11  chromedriver                        0x000000010b3a7b1d chromedriver + 4934429
+12  chromedriver                        0x000000010b3ac295 chromedriver + 4952725
+13  chromedriver                        0x000000010b3b13cf chromedriver + 4973519
+14  chromedriver                        0x000000010b3accba chromedriver + 4955322
+15  chromedriver                        0x000000010b38737c chromedriver + 4801404
+16  chromedriver                        0x000000010b3c6c68 chromedriver + 5061736
+17  chromedriver                        0x000000010b3c6def chromedriver + 5062127
+18  chromedriver                        0x000000010b3dc5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff208078fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff20803443 thread_start + 15
+
+
+2022-06-01 21:52:42,399[WARNING/MainProcess]crawler_pay.py(69): No items found: https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 21:52:42,399[INFO/MainProcess]crawler_pay.py(83): Finish crawling: https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 21:52:42,402[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 21:52:45,019[ERROR/MainProcess]crawler_pay.py(101): An error occurred while parsing items.
+2022-06-01 21:52:45,020[ERROR/MainProcess]crawler_pay.py(102): Traceback (most recent call last):
+  File "crawler_pay.py", line 98, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 110, in parse_item_info
+    tmb_elems= self.driver.find_element(By.CSS_SELECTOR, '#itm')
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 1253, in find_element
+    'value': value})['value']
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#itm"}
+  (Session info: chrome=102.0.5005.61)
+Stacktrace:
+0   chromedriver                        0x000000010b3d52c9 chromedriver + 5120713
+1   chromedriver                        0x000000010b363e33 chromedriver + 4656691
+2   chromedriver                        0x000000010af53158 chromedriver + 393560
+3   chromedriver                        0x000000010af87edd chromedriver + 610013
+4   chromedriver                        0x000000010af88161 chromedriver + 610657
+5   chromedriver                        0x000000010afba244 chromedriver + 815684
+6   chromedriver                        0x000000010afa54ad chromedriver + 730285
+7   chromedriver                        0x000000010afb7f41 chromedriver + 806721
+8   chromedriver                        0x000000010afa5373 chromedriver + 729971
+9   chromedriver                        0x000000010af7b609 chromedriver + 558601
+10  chromedriver                        0x000000010af7c635 chromedriver + 562741
+11  chromedriver                        0x000000010b3a7b1d chromedriver + 4934429
+12  chromedriver                        0x000000010b3ac295 chromedriver + 4952725
+13  chromedriver                        0x000000010b3b13cf chromedriver + 4973519
+14  chromedriver                        0x000000010b3accba chromedriver + 4955322
+15  chromedriver                        0x000000010b38737c chromedriver + 4801404
+16  chromedriver                        0x000000010b3c6c68 chromedriver + 5061736
+17  chromedriver                        0x000000010b3c6def chromedriver + 5062127
+18  chromedriver                        0x000000010b3dc5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff208078fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff20803443 thread_start + 15
+
+
+2022-06-01 21:52:45,021[WARNING/MainProcess]crawler_pay.py(69): No items found: https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 21:52:45,021[INFO/MainProcess]crawler_pay.py(83): Finish crawling: https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 21:52:46,135[INFO/MainProcess]crawler_base.py(188): Finish crawling paypay.

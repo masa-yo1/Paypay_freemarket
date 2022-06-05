@@ -1,0 +1,8 @@
+2022-06-02 22:40:35,223[INFO/MainProcess]crawler_base.py(250): Start downloading htmls: paypay.
+2022-06-02 22:41:34,524[INFO/MainProcess]crawler_base.py(260): Finish downloading htmls: paypay.
+2022-06-02 22:41:34,527[INFO/MainProcess]crawler_base.py(261): Upload results: 
+m86379889656: False
+m39222265008: False
+m75593746090: False
+m66085477343: False
+m82600962553: False

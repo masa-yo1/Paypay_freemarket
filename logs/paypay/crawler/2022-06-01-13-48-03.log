@@ -1,0 +1,26 @@
+2022-06-01 13:48:03,528[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 13:48:13,540[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 13:48:18,064[ERROR/MainProcess]crawler_pay.py(101): An error occurred while parsing items.
+2022-06-01 13:48:18,066[ERROR/MainProcess]crawler_pay.py(102): Traceback (most recent call last):
+  File "crawler_pay.py", line 98, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 110, in parse_item_info
+    tmb_elems= driver.find_element(By.CSS_SELECTOR, '#itm')
+NameError: name 'driver' is not defined
+
+2022-06-01 13:48:18,066[WARNING/MainProcess]crawler_pay.py(69): No items found: https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 13:48:18,066[INFO/MainProcess]crawler_pay.py(83): Finish crawling: https://jp.mercari.com/search?keyword=PS5&order=desc&sort=created_time&price_min=30000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 13:48:18,068[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 13:48:20,954[ERROR/MainProcess]crawler_pay.py(101): An error occurred while parsing items.
+2022-06-01 13:48:20,954[ERROR/MainProcess]crawler_pay.py(102): Traceback (most recent call last):
+  File "crawler_pay.py", line 98, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 110, in parse_item_info
+    tmb_elems= driver.find_element(By.CSS_SELECTOR, '#itm')
+NameError: name 'driver' is not defined
+
+2022-06-01 13:48:20,955[WARNING/MainProcess]crawler_pay.py(69): No items found: https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 13:48:20,955[INFO/MainProcess]crawler_pay.py(83): Finish crawling: https://jp.mercari.com/search?keyword=Switch&order=desc&sort=created_time&price_min=20000&t2_category_id=76&t1_category_id=5&category_id=701&t3_category_id=701
+2022-06-01 13:48:21,942[INFO/MainProcess]crawler_base.py(188): Finish crawling paypay.

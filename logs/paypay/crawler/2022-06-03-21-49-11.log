@@ -1,0 +1,418 @@
+2022-06-03 21:49:11,969[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-03 21:49:16,023[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-03 21:49:20,511[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:20,513[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:20,643[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:20,645[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:20,782[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:20,783[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:20,920[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:20,920[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,018[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,018[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,126[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,126[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,239[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,239[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,343[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,343[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,436[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,436[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,521[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,521[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,607[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,607[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,698[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,699[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,847[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,847[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:21,951[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:21,951[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,056[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,057[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,142[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,142[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,229[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,229[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,316[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,317[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,400[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,400[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,482[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,483[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,572[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,572[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,653[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,653[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,738[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,738[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,871[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,872[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:22,965[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:22,966[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:23,768[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:23,770[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:23,973[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:23,974[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:24,097[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:24,097[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:24,415[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:24,418[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:24,547[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:24,547[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:24,674[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:24,675[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:24,776[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:24,779[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:24,884[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:24,884[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:24,968[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:24,968[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:25,075[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:25,076[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:25,177[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:25,178[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:25,264[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:25,264[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:25,503[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:25,503[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:25,802[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:25,802[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:26,012[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:26,013[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:26,121[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:26,122[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:26,247[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:26,248[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:26,406[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:26,406[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:26,641[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:26,641[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:26,739[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:26,753[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:26,856[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:26,857[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:26,948[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:26,949[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,039[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,039[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,139[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,139[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,222[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,222[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,301[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,301[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,381[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,381[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,464[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,464[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,538[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,538[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,622[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,622[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,706[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,706[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,783[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,783[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,863[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,863[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:27,948[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:27,949[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,031[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,031[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,112[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,112[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,191[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,192[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,271[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,271[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,359[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,359[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,449[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,449[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,535[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,535[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 125, in parse_item_info
+    items_info["is_soldout"] = ("True")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,618[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,618[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,700[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,700[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+
+2022-06-03 21:49:28,794[ERROR/MainProcess]crawler_pay.py(133): Failed to parse an item.
+2022-06-03 21:49:28,794[ERROR/MainProcess]crawler_pay.py(134): Traceback (most recent call last):
+  File "crawler_pay.py", line 127, in parse_item_info
+    items_info["is_soldout"] = ("False")
+NameError: name 'items_info' is not defined
+

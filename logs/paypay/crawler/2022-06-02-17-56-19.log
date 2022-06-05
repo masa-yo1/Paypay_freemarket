@@ -1,0 +1,1048 @@
+2022-06-02 17:56:19,769[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:56:23,045[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:56:26,357[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,358[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,381[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,381[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,425[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,429[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,471[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,472[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,498[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,500[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,527[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,528[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,551[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,552[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,575[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,576[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,598[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,598[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,618[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,618[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,665[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,666[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,699[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,699[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,721[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,722[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,742[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,743[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,764[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,764[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,783[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,783[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,802[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,803[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,825[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,825[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,847[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,848[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,866[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,867[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,886[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,886[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,908[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,908[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,928[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,929[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,950[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,951[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,968[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,969[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:26,987[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:26,988[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,011[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,012[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,033[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,034[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,056[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,056[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,075[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,075[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,098[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,098[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,119[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,120[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,139[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,140[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,159[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,160[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,179[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,180[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,207[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,225[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,246[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,246[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,266[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,267[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,286[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,288[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,309[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,310[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,331[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,332[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,352[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,353[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,374[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,374[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,393[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,393[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,415[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,415[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,435[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,435[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,458[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,458[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,478[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,480[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,501[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,502[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,525[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,525[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,544[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,544[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,564[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,564[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,584[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,584[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,601[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,602[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,623[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,624[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,642[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,643[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,664[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,664[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,685[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,687[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,707[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,708[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,728[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,729[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,751[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,752[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,774[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,774[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,794[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,795[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,814[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,814[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,833[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,834[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,851[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,852[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,871[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,872[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,893[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,893[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,919[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,919[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,944[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,946[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:27,976[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:27,977[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,009[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,010[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,040[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,040[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,066[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,066[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,091[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,093[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,117[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,117[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,136[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,137[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,177[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,178[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,198[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,199[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,217[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,218[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,237[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,237[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,258[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,259[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,278[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,278[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,300[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,300[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,320[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,321[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,340[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,341[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,360[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,361[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,384[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,384[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,406[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,406[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,425[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,426[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,448[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,448[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,471[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,471[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,490[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,490[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,510[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,512[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,533[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,534[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,556[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,557[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,576[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,577[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,599[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,600[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,641[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,641[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,674[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,674[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,694[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,694[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,715[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,715[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,742[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,743[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,764[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,765[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,783[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,784[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,804[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,804[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,825[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,826[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,847[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,847[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,867[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,867[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,888[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,889[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,907[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,908[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,927[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,927[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,949[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,950[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,969[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,970[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:28,990[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:28,990[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,010[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,010[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,031[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,032[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,052[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,053[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,073[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,074[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,093[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,095[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,118[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,119[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,140[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,140[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,162[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,163[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,182[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,183[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,202[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,203[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,225[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,225[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,247[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,248[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,268[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,268[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,289[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,289[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,309[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,309[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,330[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,330[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,350[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,351[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,373[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,373[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,391[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,392[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,412[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,413[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,433[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,434[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,462[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,462[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,484[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,484[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,505[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,506[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,525[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,525[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,544[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,544[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,565[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,565[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,584[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,584[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,609[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,610[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,635[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,636[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,675[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,676[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,698[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,698[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,719[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,720[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,745[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,746[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,768[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,770[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,791[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,791[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,809[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,810[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,831[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,850[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,873[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,887[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:29,910[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:29,934[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,060[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,061[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,110[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,117[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,190[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,192[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,237[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,249[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,278[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,285[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,312[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,313[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,341[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,342[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,364[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,365[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,393[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,394[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,419[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,419[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,447[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,447[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,482[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,484[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,514[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,514[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,542[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,542[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,566[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,567[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,593[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,593[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,614[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,614[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,635[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,635[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+
+2022-06-02 17:56:30,655[ERROR/MainProcess]crawler_pay.py(134): Failed to parse an item.
+2022-06-02 17:56:30,655[ERROR/MainProcess]crawler_pay.py(135): Traceback (most recent call last):
+  File "crawler_pay.py", line 117, in parse_item_info
+    item_info["item_id"] = element.get_attribute("href").split("/")[-1]
+AttributeError: 'str' object has no attribute 'get_attribute'
+

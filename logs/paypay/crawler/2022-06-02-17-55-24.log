@@ -1,0 +1,26 @@
+2022-06-02 17:55:24,981[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:55:27,835[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:55:32,169[ERROR/MainProcess]crawler_pay.py(102): An error occurred while parsing items.
+2022-06-02 17:55:32,169[ERROR/MainProcess]crawler_pay.py(103): Traceback (most recent call last):
+  File "crawler_pay.py", line 99, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 112, in parse_item_info
+    driver = self.driver.Chrome()
+AttributeError: 'WebDriver' object has no attribute 'Chrome'
+
+2022-06-02 17:55:32,170[WARNING/MainProcess]crawler_pay.py(70): No items found: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:55:32,170[INFO/MainProcess]crawler_pay.py(84): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:55:32,171[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:55:34,368[ERROR/MainProcess]crawler_pay.py(102): An error occurred while parsing items.
+2022-06-02 17:55:34,369[ERROR/MainProcess]crawler_pay.py(103): Traceback (most recent call last):
+  File "crawler_pay.py", line 99, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 112, in parse_item_info
+    driver = self.driver.Chrome()
+AttributeError: 'WebDriver' object has no attribute 'Chrome'
+
+2022-06-02 17:55:34,369[WARNING/MainProcess]crawler_pay.py(70): No items found: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:55:34,369[INFO/MainProcess]crawler_pay.py(84): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:55:35,284[INFO/MainProcess]crawler_base.py(188): Finish crawling paypay.

@@ -1,0 +1,90 @@
+2022-06-02 17:52:43,796[INFO/MainProcess]crawler_base.py(183): Start crawling paypay. URLs:
+https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:52:46,434[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:52:50,660[ERROR/MainProcess]crawler_pay.py(102): An error occurred while parsing items.
+2022-06-02 17:52:50,667[ERROR/MainProcess]crawler_pay.py(103): Traceback (most recent call last):
+  File "crawler_pay.py", line 99, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 112, in parse_item_info
+    self.driver.get(element)
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 442, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=102.0.5005.61)
+Stacktrace:
+0   chromedriver                        0x0000000106c8f2c9 chromedriver + 5120713
+1   chromedriver                        0x0000000106c1de33 chromedriver + 4656691
+2   chromedriver                        0x000000010680d00f chromedriver + 393231
+3   chromedriver                        0x00000001067f8568 chromedriver + 308584
+4   chromedriver                        0x00000001067f7112 chromedriver + 303378
+5   chromedriver                        0x00000001067f72a2 chromedriver + 303778
+6   chromedriver                        0x000000010680ec6a chromedriver + 400490
+7   chromedriver                        0x00000001068726df chromedriver + 808671
+8   chromedriver                        0x000000010685f482 chromedriver + 730242
+9   chromedriver                        0x0000000106871f41 chromedriver + 806721
+10  chromedriver                        0x000000010685f373 chromedriver + 729971
+11  chromedriver                        0x0000000106835609 chromedriver + 558601
+12  chromedriver                        0x0000000106836635 chromedriver + 562741
+13  chromedriver                        0x0000000106c61b1d chromedriver + 4934429
+14  chromedriver                        0x0000000106c66295 chromedriver + 4952725
+15  chromedriver                        0x0000000106c6b3cf chromedriver + 4973519
+16  chromedriver                        0x0000000106c66cba chromedriver + 4955322
+17  chromedriver                        0x0000000106c4137c chromedriver + 4801404
+18  chromedriver                        0x0000000106c80c68 chromedriver + 5061736
+19  chromedriver                        0x0000000106c80def chromedriver + 5062127
+20  chromedriver                        0x0000000106c965e5 chromedriver + 5150181
+21  libsystem_pthread.dylib             0x00007fff208078fc _pthread_start + 224
+22  libsystem_pthread.dylib             0x00007fff20803443 thread_start + 15
+
+
+2022-06-02 17:52:50,669[WARNING/MainProcess]crawler_pay.py(70): No items found: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:52:50,669[INFO/MainProcess]crawler_pay.py(84): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/PS5?sort=openTime&order=desc&categoryIds=2511%2C2161%2C50796%2C50797
+2022-06-02 17:52:50,670[INFO/MainProcess]crawler_pay.py(44): Start crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:52:52,855[ERROR/MainProcess]crawler_pay.py(102): An error occurred while parsing items.
+2022-06-02 17:52:52,856[ERROR/MainProcess]crawler_pay.py(103): Traceback (most recent call last):
+  File "crawler_pay.py", line 99, in parse_items
+    items.append(self.parse_item_info(element))
+  File "crawler_pay.py", line 112, in parse_item_info
+    self.driver.get(element)
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 442, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/Users/masa/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=102.0.5005.61)
+Stacktrace:
+0   chromedriver                        0x0000000106c8f2c9 chromedriver + 5120713
+1   chromedriver                        0x0000000106c1de33 chromedriver + 4656691
+2   chromedriver                        0x000000010680d00f chromedriver + 393231
+3   chromedriver                        0x00000001067f8568 chromedriver + 308584
+4   chromedriver                        0x00000001067f7112 chromedriver + 303378
+5   chromedriver                        0x00000001067f72a2 chromedriver + 303778
+6   chromedriver                        0x000000010680ec6a chromedriver + 400490
+7   chromedriver                        0x00000001068726df chromedriver + 808671
+8   chromedriver                        0x000000010685f482 chromedriver + 730242
+9   chromedriver                        0x0000000106871f41 chromedriver + 806721
+10  chromedriver                        0x000000010685f373 chromedriver + 729971
+11  chromedriver                        0x0000000106835609 chromedriver + 558601
+12  chromedriver                        0x0000000106836635 chromedriver + 562741
+13  chromedriver                        0x0000000106c61b1d chromedriver + 4934429
+14  chromedriver                        0x0000000106c66295 chromedriver + 4952725
+15  chromedriver                        0x0000000106c6b3cf chromedriver + 4973519
+16  chromedriver                        0x0000000106c66cba chromedriver + 4955322
+17  chromedriver                        0x0000000106c4137c chromedriver + 4801404
+18  chromedriver                        0x0000000106c80c68 chromedriver + 5061736
+19  chromedriver                        0x0000000106c80def chromedriver + 5062127
+20  chromedriver                        0x0000000106c965e5 chromedriver + 5150181
+21  libsystem_pthread.dylib             0x00007fff208078fc _pthread_start + 224
+22  libsystem_pthread.dylib             0x00007fff20803443 thread_start + 15
+
+
+2022-06-02 17:52:52,856[WARNING/MainProcess]crawler_pay.py(70): No items found: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:52:52,856[INFO/MainProcess]crawler_pay.py(84): Finish crawling: https://paypayfleamarket.yahoo.co.jp/search/Switch?sort=openTime&order=desc&categoryIds=2511%2C2161%2C48838%2C48840
+2022-06-02 17:52:53,798[INFO/MainProcess]crawler_base.py(188): Finish crawling paypay.
