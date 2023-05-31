@@ -15,6 +15,7 @@ import slackweb
 from dotenv import load_dotenv
 
 
+
 current_dir = pathlib.Path(__file__).parent
 temp_dir = current_dir / "../temp"
 temp_dir.mkdir(exist_ok=True, parents=True)
