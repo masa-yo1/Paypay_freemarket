@@ -1,17 +1,32 @@
 # ResaleAppCrawling
 
-## 環境構築
+プロジェクト名
+(ここにプロジェクトの説明)
 
-- まずPython環境を作成してください。
-  - 可能であれば、venvで仮想環境を作成してください( https://docs.python.org/ja/3/library/venv.html )
-- `requirements.txt` にあるライブラリをインストールしてください。
-  - `pip3 install -r requirements.txt`
-  - venvで仮想環境を作成した場合は、`source venv/bin/activate` をして、仮想環境を立ち上げてからライブラリをインストールしてください。
-- Google Chromeがインストールされていない場合は、してください。
-- 自分のChromeのバージョンを作成し、それに対応するchromedriverをダウンロード（ https://chromedriver.chromium.org/downloads )して、`util/webdriver/chromedriver` として保存してください。
-- 自分の`ホームディレクトリ/.aws`に、slackに貼った`credentials`を追加してください。
-  - Macの場合だと `/Users/[自分の名前]/.aws/credentials`
+環境構築
+Pythonの仮想環境を作成します。可能であれば、venv を使用してください。詳細はこちらを参照してください。
 
-## テスト
+requirements.txtに記載されたライブラリをインストールします。
 
-`python3 pay_crawler.py` および `python3 pay_downloader.py` の両方が実行できれば環境構築成功。
+bash
+Copy code
+pip3 install -r requirements.txt
+もし venv を使用している場合は、下記のように仮想環境を有効化してからライブラリをインストールしてください。
+
+bash
+Copy code
+source venv/bin/activate
+pip3 install -r requirements.txt
+Google Chromeがインストールされていない場合は、インストールしてください。
+
+自分のChromeのバージョンに対応するchromedriverをダウンロードし、util/webdriver/chromedriverとして保存してください。
+
+自身のホームディレクトリの.awsフォルダに、slackで共有されたcredentialsを追加してください。Macの場合は、次のパスになります: /Users/[自分の名前]/.aws/credentials
+
+テスト
+下記のコマンドが実行できれば環境構築は成功です。
+
+bash
+Copy code
+python3 pay_crawler.py
+python3 pay_downloader.py
