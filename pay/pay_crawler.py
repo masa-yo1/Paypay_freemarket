@@ -21,6 +21,7 @@ import util
 import crawler_base as cb
 
 
+
 class PaypayCrawler(cb.SeleniumCralwer):
     platform = "paypay"
     s3_session = boto3.Session(profile_name="resale-app-crawling")
