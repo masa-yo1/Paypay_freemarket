@@ -16,6 +16,7 @@ import util
 import crawler_base as cb
 
 
+
 class PaypayDownloader(cb.DownloaderBase):
     platform = "paypay"
     base_url = "https://paypayfleamarket.yahoo.co.jp/item/"
