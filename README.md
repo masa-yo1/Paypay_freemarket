@@ -1,4 +1,4 @@
-# ResaleAppCrawling
+# Paypayfreemarket
 
 プロジェクト名
 (ここにプロジェクトの説明)
@@ -8,8 +8,7 @@ Pythonの仮想環境を作成します。可能であれば、venv を使用し
 
 requirements.txtに記載されたライブラリをインストールします。
 
-```bash
-Copy code
+```bash Copy code
 pip3 install -r requirements.txt
 ```
 もし venv を使用している場合は、下記のように仮想環境を有効化してからライブラリをインストールしてください。
